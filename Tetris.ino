@@ -61,7 +61,7 @@ byte gameField[GAME_ROWS * GAME_COLUMNS];
 NESMiniController nes;
 Adafruit_NeoPixel leds = Adafruit_NeoPixel(LED_COUNT, PIN, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel matrix = Adafruit_NeoPixel(256, PIN, NEO_GRB + NEO_KHZ800);
-LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Set the LCD I2C address
+LiquidCrystal_I2C lcd(0x27,20,4);  // Set the LCD I2C address
 
 //uint32_t RED = matrix.Color(255, 0, 0);
 //uint32_t GREEN = matrix.Color(0, 255, 0);
@@ -164,6 +164,7 @@ void reboot() {
 void displayScoreTetris(int gover)
 {
   //lcd.clear();
+  
   updateScore();
   int tetrisHS = EEPROM.read(1);
   lcd.setCursor(2,0);
@@ -213,7 +214,8 @@ void setup() {
 	Serial.begin(9600);
 
 	//init the game
-  lcd.begin(20,4); 
+  lcd.init();
+  lcd.backlight();
 //    for(int i = 0; i< 3; i++)
 //  {
 //    lcd.backlight();
