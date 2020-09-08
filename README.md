@@ -5,7 +5,7 @@ This LED matrix game is based of an
 - NES videogame controller - connected through I2C
 - 2004 I2C LCD, used for picking the game at start, and showing the score - connected through I2C
 
-There are two games installed and you can pick which game to play at the startup of the system
-Games available are Tetris and Snake, the high score will be stored in the internal microcontroller EEPROM, and will be updated if broken by a new user
-3D printed parts are available on the repo if you want to clone it
+There are two games installed and you can pick which game to play at the startup of the system.
+- Games available are Tetris and Snake, the high score will be stored in the internal microcontroller EEPROM, and will be updated if broken by a new user
+- 3D printed parts are available on the repo if you want to clone it
 
