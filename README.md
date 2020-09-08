@@ -9,3 +9,4 @@ There are two games installed and you can pick which game to play at the startup
 - Games available are Tetris and Snake, the high score will be stored in the internal microcontroller EEPROM, and will be updated if broken by a new user
 - 3D printed parts are available on the repo if you want to clone it
 
+![image of Snake](https://github.uconn.edu/ayb19003/Arduino-led-matrix-video-game/blob/master/Snake.jpeg)
