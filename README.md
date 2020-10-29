@@ -7,9 +7,9 @@ This LED matrix game is based of an
 
 There are two games installed and you can pick which game to play at the startup of the system. Games available are:
 - Tetris
-![Image of Tetris](https://github.uconn.edu/ayb19003/Arduino-led-matrix-video-game/blob/master/Tetris.jpeg)
+![Image of Tetris](https://github.com/ABraik-bit/Arduino-led-matrix-video-game/blob/master/Tetris.jpeg)
 - Snake 
-![Image of Snake](https://github.uconn.edu/ayb19003/Arduino-led-matrix-video-game/blob/master/Snake.jpeg)
+![Image of Snake](https://github.com/ABraik-bit/Arduino-led-matrix-video-game/blob/master/Snake.jpeg)
 
 
 - 3D printed parts are available on the repo if you want to clone it
